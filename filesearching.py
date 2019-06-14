@@ -5,6 +5,7 @@ import re
 import shutil
 import sys
 from time import sleep
+from pprint import pprint
 
 found_files = []
 found_paths = []
@@ -81,9 +82,9 @@ def sending_files(send_choice):
 def show_terminal(choice):
     if choice == "names":
         for every_file in found_files:
-            print(" -> ", every_file)
+            pprint(f" {found_files.index(every_file)} -> {every_file}")
     elif choice == "paths":
         for every_path in found_paths:
-            print(" -> ", every_path)
+            pprint(f" {found_paths.index(every_path)} -> {every_path}")
     else:
         print(" I'm not a stupid like you ")
