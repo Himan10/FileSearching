@@ -35,4 +35,7 @@ For example :
     # -> shutil.copy()
     This function helps me to copy files from source path to destination path .
   
-Well i use more diff-diff. functions which have their own functionality in the program but these three is like a blueprint so that a end-user can understand how FileSearching works without even check every line of the code
+Well i use more diff-diff. functions which have their own functionality in the program but these three is like a blueprint so that a end-user can understand how FileSearching works without even check every line of the code.
+
+# Platforms -
+ -> Working in Linux and Windows
